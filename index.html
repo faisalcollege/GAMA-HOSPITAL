@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAMA Hospital & Jawa Trauma Centre</title>
+
+<style>
+:root {
+  --primary: #0a5cff;
+  --secondary: #00b894;
+  --dark: #0f172a;
+  --light: #f8fafc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #0a5cff, #00b894);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.hero .buttons {
+  margin-top: 25px;
+}
+
+.hero a {
+  text-decoration: none;
+  background: white;
+  color: var(--primary);
+  padding: 12px 22px;
+  margin: 5px;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.hero a:hover {
+  transform: translateY(-2px);
+}
+
+/* SECTION */
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+/* REVIEWS */
+.review {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+}
+
+.review span {
+  color: #facc15;
+  font-size: 1.1rem;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.contact a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 26px;
+  background: var(--primary);
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+  background: var(--dark);
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+  font-size: 0.9rem;
+}
+
+/* EMERGENCY BAR */
+.emergency {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background: red;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>GAMA Hospital & Jawa Trauma Centre</h1>
+  <p>Trusted 24×7 Medical & Emergency Care in Tulsipur</p>
+  <div class="buttons">
+    <a href="tel:09118300685">📞 Call Now</a>
+    <a href="https://maps.google.com/?q=GCF5+V2+Tulsipur+Uttar+Pradesh" target="_blank">📍 Directions</a>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section>
+  <h2>About Us</h2>
+  <p style="text-align:center; max-width:800px; margin:auto;">
+    GAMA Hospital & Jawa Trauma Centre is committed to providing compassionate,
+    hygienic, and affordable healthcare. Known for polite doctors, friendly staff,
+    and 24×7 emergency support, we proudly serve the people of Tulsipur with trust
+    and care.
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section>
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card"><h3>🚑 Emergency & Trauma</h3><p>24×7 critical emergency care.</p></div>
+    <div class="card"><h3>🩺 General Medicine</h3><p>Comprehensive medical treatment.</p></div>
+    <div class="card"><h3>🦴 Orthopedic Care</h3><p>Injury & bone-related treatment.</p></div>
+    <div class="card"><h3>🏥 In-Patient Care</h3><p>Clean and monitored facilities.</p></div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section>
+  <h2>Why Choose Us</h2>
+  <div class="cards">
+    <div class="card">⭐ 4.7 Rating (29 Reviews)</div>
+    <div class="card">🕒 Open 24 Hours</div>
+    <div class="card">👨‍⚕️ Polite & Humble Doctors</div>
+    <div class="card">🧼 Very Hygienic Environment</div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section>
+  <h2>Patient Reviews</h2>
+  <div class="cards">
+    <div class="review">
+      <span>★★★★★</span>
+      <p>“Today’s Gama Hospital is serving better than other hospitals.”</p>
+      <strong>– Sunil Vishwakarma</strong>
+    </div>
+    <div class="review">
+      <span>★★★★★</span>
+      <p>“Too polite and very humble doctors.”</p>
+      <strong>– Jitendra Narayan</strong>
+    </div>
+    <div class="review">
+      <span>★★★★★</span>
+      <p>“Wonderful experience, very hygienic environment.”</p>
+      <strong>– Zeba Malik</strong>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Contact & Location</h2>
+  <p>📍 Tehsil Rd, Choraha, Tulsipur, Uttar Pradesh 271208</p>
+  <p>📞 091183 00685</p>
+  <a href="tel:09118300685">Call Hospital</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 GAMA Hospital & Jawa Trauma Centre</p>
+  <p>Open 24 Hours • Emergency Care Available</p>
+</footer>
+
+<a class="emergency" href="tel:09118300685">🚨 Emergency Call</a>
+
+</body>
+  </html>
