@@ -156,6 +156,36 @@ footer {
   text-decoration: none;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
+  /* HEADER FIX */
+.topbar {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 22px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.topbar .logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0a5cff;
+}
+
+.topbar nav a {
+  margin-left: 16px;
+  text-decoration: none;   /* removes underline */
+  color: #0f172a;          /* removes blue */
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.topbar nav a:hover {
+  color: #0a5cff;
+}
 </style>
 </head>
 
